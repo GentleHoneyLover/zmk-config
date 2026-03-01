@@ -1,22 +1,6 @@
 layout: {zmk_keyboard: sofle_choc_pro}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', '$$mdi:keyboard-esc$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:keyboard-tab$$',
-    A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, '$$mdi:volume-mute$$', '$$mdi:play-pause$$', N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$',
-    '$$mdi:apple-keyboard-command$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-control$$', lower, '$$mdi:keyboard-return$$', '$$mdi:keyboard-space$$',
-    raise, '$$mdi:apple-keyboard-control$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-command$$']
-  lower:
-  - {type: trans}
-  - $$mdi:keyboard-f1$$
-  - $$mdi:keyboard-f2$$
-  - $$mdi:keyboard-f3$$
-  - $$mdi:keyboard-f4$$
-  - $$mdi:keyboard-f5$$
-  - $$mdi:keyboard-f6$$
-  - $$mdi:keyboard-f7$$
-  - $$mdi:keyboard-f8$$
-  - $$mdi:keyboard-f9$$
-  - $$mdi:keyboard-f10$$
-  - $$mdi:keyboard-f11$$
+  Default:
   - '`'
   - '1'
   - '2'
@@ -28,50 +12,117 @@ layers:
   - '8'
   - '9'
   - '0'
-  - $$mdi:keyboard-f12$$
-  - {type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
-  - {type: trans}
-  - '='
   - '-'
-  - +
-  - '{'
-  - '}'
-  - {type: trans}
-  - {type: trans}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - $$mdi:backspace-outline$$
+  - $$mdi:keyboard-esc$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:volume-mute$$
+  - $$mdi:play-pause$$
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - \
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:magnify$$', h: '$$mdi:apple-keyboard-command$$'}
+  - $$mdi:layers-minus$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-return$$
+  - $$mdi:layers-plus$$
+  - $$mdi:apple-keyboard-command$$
   - '['
   - ']'
-  - ;
-  - ':'
-  - \
+  Lower:
+  - $$mdi:led-on$$
+  - $$mdi:keyboard-f1$$
+  - $$mdi:keyboard-f2$$
+  - $$mdi:keyboard-f3$$
+  - $$mdi:keyboard-f4$$
+  - $$mdi:keyboard-f5$$
+  - $$mdi:keyboard-f6$$
+  - $$mdi:keyboard-f7$$
+  - $$mdi:keyboard-f8$$
+  - $$mdi:keyboard-f9$$
+  - $$mdi:keyboard-f10$$
+  - $$mdi:keyboard-f11$$
+  - $$mdi:backspace-outline$$
+  - $$mdi:brightness-5$$
+  - $$mdi:brightness-7$$
+  - $$mdi:mouse-outline$$
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-scroll-wheel$$
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:keyboard-f12$$
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:mouse-outline$$
+  - $$mdi:mouse-outline$$
+  - $$mdi:mouse-outline$$
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:mouse-left-click$$
+  - $$mdi:mouse$$
+  - $$mdi:mouse-right-click$$
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:monitor-lock$$
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: held}
+  - $$mdi:keyboard-return$$
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  raise:
-  - $$mdi:bluetooth-off$$
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
+  Raise:
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -79,29 +130,35 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - INS
-  - PSCRN
-  - CMENU
   - {type: trans}
   - {type: trans}
-  - $$mdi:chevron-double-up$$
-  - {type: trans}
-  - $$mdi:arrow-up$$
-  - {type: trans}
-  - '0'
   - {type: trans}
   - {type: trans}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - '='
+  - $$mdi:apple-keyboard-caps$$
   - {type: trans}
-  - CLCK
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - '6'
   - $$mdi:chevron-double-down$$
+  - $$mdi:chevron-double-up$$
+  - '4'
+  - $$mdi:backspace-outline$$
+  - $$mdi:backspace-reverse-outline$$
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
-  - $$mdi:keyboard-f1$$
-  - $$mdi:backspace-outline$$
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - $$mdi:undo$$
   - $$mdi:content-cut$$
@@ -121,12 +178,12 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - $$mdi:keyboard-space$$
   - {type: held}
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  adjust:
+  Settings:
   - $$mdi:bluetooth-off$$
   - BT 1
   - BT 2
@@ -187,3 +244,10 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [20, 21]
+  k: '['
+  l: [Default]
+- p: [21, 22]
+  k: ']'
+  l: [Default]
