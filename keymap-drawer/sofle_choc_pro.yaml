@@ -251,3 +251,9 @@ combos:
 - p: [21, 22]
   k: ']'
   l: [Default]
+- p: [12, 24]
+  k: '&bootloader'
+  l: [Default]
+- p: [23, 35]
+  k: '&bootloader'
+  l: [Default]

@@ -42,6 +42,18 @@
             key-positions = <21 22>;
             layers = <0>;
         };
+
+        Bootloader_left {
+            bindings = <&bootloader>;
+            key-positions = <12 24>;
+            layers = <0>;
+        };
+
+        Bootloader_right {
+            bindings = <&bootloader>;
+            key-positions = <23 35>;
+            layers = <0>;
+        };
     };
 
     keymap {
