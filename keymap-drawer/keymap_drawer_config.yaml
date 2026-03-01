@@ -124,6 +124,7 @@ parse_config:
     '&ext_power EP_TOG': '$$mdi:power$$'
     '&rgb_ug RGB_TOG': '$$mdi:led-on$$'
     '&studio_unlock': '$$mdi:lock-open-variant-outline$$'
+    '&bootloader': '$$mdi:memory$$'
 
     # Undo/Cut/Copy/Paste
     '&kp K_UNDO': '$$mdi:undo$$'
