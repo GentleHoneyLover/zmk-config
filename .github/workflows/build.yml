@@ -1,5 +1,12 @@
 name: Build ZMK firmware
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    paths:
+      - "config/sofle_choc_pro.*"
+      - "boards/**"
+      - "zephyr/**"
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
