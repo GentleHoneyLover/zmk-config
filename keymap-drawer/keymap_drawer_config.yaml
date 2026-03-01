@@ -1,0 +1,250 @@
+draw_config:
+  key_w: 60
+  key_h: 56
+  split_gap: 30.0
+  combo_w: 28
+  combo_h: 26
+  key_rx: 6.0
+  key_ry: 6.0
+  dark_mode: true
+  n_columns: 1
+  separate_combo_diagrams: false
+  combo_diagrams_scale: 2
+  inner_pad_w: 2.0
+  inner_pad_h: 2.0
+  outer_pad_w: 30.0
+  outer_pad_h: 56.0
+  line_spacing: 1.2
+  arc_radius: 6.0
+  append_colon_to_layer_header: true
+  small_pad: 2.0
+  legend_rel_x: 0.0
+  legend_rel_y: 0.0
+  draw_key_sides: false
+  key_side_pars:
+    rel_x: 0.0
+    rel_y: 4.0
+    rel_w: 12.0
+    rel_h: 12.0
+    rx: 4.0
+    ry: 4.0
+  svg_extra_style: |
+    rect.held, rect.combo.held {
+      fill: #FF6600 !important;
+    }
+  footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">Keymap Drawer</a>
+  shrink_wide_legends: 7
+  style_layer_activators: true
+  glyph_tap_size: 20
+  glyph_hold_size: 16
+  glyph_shifted_size: 14
+  glyphs: {}
+parse_config:
+  raw_binding_map:
+    # Backspace & Delete
+    '&kp BSPC': '$$mdi:backspace-outline$$'
+    '&kp BACKSPACE': '$$mdi:backspace-outline$$'
+    '&kp DEL': '$$mdi:keyboard-f1$$'
+    '&kp DELETE': '$$mdi:backspace-reverse-outline$$'
+
+    # Enter, Space, Tab, Escape
+    '&kp RET': '$$mdi:keyboard-return$$'
+    '&kp ENTER': '$$mdi:keyboard-return$$'
+    '&kp SPACE': '$$mdi:keyboard-space$$'
+    '&kp TAB': '$$mdi:keyboard-tab$$'
+    '&kp ESC': '$$mdi:keyboard-esc$$'
+
+    # Shift, Ctrl, Alt/Option, GUI/Command
+    '&kp LSHFT': '$$mdi:apple-keyboard-shift$$'
+    '&kp RSHFT': '$$mdi:apple-keyboard-shift$$'
+    '&kp LCTRL': '$$mdi:apple-keyboard-control$$'
+    '&kp LEFT_CONTROL': '$$mdi:apple-keyboard-control$$'
+    '&kp RCTRL': '$$mdi:apple-keyboard-control$$'
+    '&kp RIGHT_CONTROL': '$$mdi:apple-keyboard-control$$'
+    '&kp LALT': '$$mdi:apple-keyboard-option$$'
+    '&kp RALT': '$$mdi:apple-keyboard-option$$'
+    '&kp LGUI': '$$mdi:apple-keyboard-command$$'
+    '&kp LEFT_GUI': '$$mdi:apple-keyboard-command$$'
+    '&kp RGUI': '$$mdi:apple-keyboard-command$$'
+    '&kp RIGHT_GUI': '$$mdi:apple-keyboard-command$$'
+
+    # Caps Lock
+    '&kp CAPS': '$$mdi:apple-keyboard-caps$$'
+
+    # Arrow keys
+    '&kp LEFT': '$$mdi:arrow-left$$'
+    '&kp RIGHT': '$$mdi:arrow-right$$'
+    '&kp UP': '$$mdi:arrow-up$$'
+    '&kp DOWN': '$$mdi:arrow-down$$'
+    '&kp LEFT_ARROW': '$$mdi:arrow-left$$'
+    '&kp RIGHT_ARROW': '$$mdi:arrow-right$$'
+    '&kp UP_ARROW': '$$mdi:arrow-up$$'
+    '&kp DOWN_ARROW': '$$mdi:arrow-down$$'
+
+    # Page Up/Down, Home, End
+    '&kp PG_UP': '$$mdi:chevron-double-up$$'
+    '&kp PG_DN': '$$mdi:chevron-double-down$$'
+    '&kp PAGE_UP': '$$mdi:chevron-double-up$$'
+    '&kp PAGE_DOWN': '$$mdi:chevron-double-down$$'
+    '&kp HOME': '$$mdi:chevron-triple-left$$'
+    '&kp END': '$$mdi:chevron-triple-right$$'
+
+    # Function keys
+    '&kp F1': '$$mdi:keyboard-f1$$'
+    '&kp F2': '$$mdi:keyboard-f2$$'
+    '&kp F3': '$$mdi:keyboard-f3$$'
+    '&kp F4': '$$mdi:keyboard-f4$$'
+    '&kp F5': '$$mdi:keyboard-f5$$'
+    '&kp F6': '$$mdi:keyboard-f6$$'
+    '&kp F7': '$$mdi:keyboard-f7$$'
+    '&kp F8': '$$mdi:keyboard-f8$$'
+    '&kp F9': '$$mdi:keyboard-f9$$'
+    '&kp F10': '$$mdi:keyboard-f10$$'
+    '&kp F11': '$$mdi:keyboard-f11$$'
+    '&kp F12': '$$mdi:keyboard-f12$$'
+
+    # Media / Volume (from your encoder bindings)
+    '&kp C_MUTE': '$$mdi:volume-mute$$'
+    '&kp C_PLAY': '$$mdi:play-pause$$'
+    '&kp C_PP': '$$mdi:play-pause$$'
+    '&kp C_NEXT': '$$mdi:skip-next$$'
+    '&kp C_PREV': '$$mdi:skip-previous$$'
+    '&kp C_VOL_UP': '$$mdi:volume-high$$'
+    '&kp C_VOL_DN': '$$mdi:volume-low$$'
+    '&kp C_BRIGHTNESS_INC': '$$mdi:brightness-7$$'
+    '&kp C_BRIGHTNESS_DEC': '$$mdi:brightness-5$$'
+
+    # Bluetooth / System
+    '&bt BT_CLR': '$$mdi:bluetooth-off$$'
+    '&bt BT_SEL 0': BT 1
+    '&bt BT_SEL 1': BT 2
+    '&bt BT_SEL 2': BT 3
+    '&bt BT_SEL 3': BT 4
+    '&bt BT_SEL 4': BT 5
+    '&ext_power EP_TOG': '$$mdi:power$$'
+    '&rgb_ug RGB_TOG': '$$mdi:led-on$$'
+    '&studio_unlock': '$$mdi:lock-open-variant-outline$$'
+
+    # Undo/Cut/Copy/Paste
+    '&kp K_UNDO': '$$mdi:undo$$'
+    '&kp K_CUT': '$$mdi:content-cut$$'
+    '&kp K_COPY': '$$mdi:content-copy$$'
+    '&kp K_PASTE': '$$mdi:content-paste$$'
+
+    # Lock screen (macOS Ctrl+Cmd+Q)
+    '&kp LC(LG(Q))': '$$mdi:monitor-lock$$'
+
+    # Mod-tap for GUI+Space (your left thumb key)
+    '&mt LEFT_GUI LG(SPACE)': {t: '$$mdi:magnify$$', h: '$$mdi:apple-keyboard-command$$'}
+
+    # Mouse buttons
+    '&mkp LCLK': '$$mdi:mouse-left-click$$'
+    '&mkp RCLK': '$$mdi:mouse-right-click$$'
+    '&mkp MCLK': '$$mdi:mouse$$'
+    
+    # Mouse movement
+    '&mmv MOVE_UP': '$$mdi:mouse-outline$$'
+    '&mmv MOVE_DOWN': '$$mdi:mouse-outline$$'
+    '&mmv MOVE_LEFT': '$$mdi:mouse-outline$$'
+    '&mmv MOVE_RIGHT': '$$mdi:mouse-outline$$'
+
+    # Mouse scroll
+    '&msc SCRL_UP': '$$mdi:mouse-scroll-wheel$$'
+    '&msc SCRL_DOWN': '$$mdi:mouse-scroll-wheel$$'
+    '&msc SCRL_LEFT': '$$mdi:mouse-scroll-wheel$$'
+    '&msc SCRL_RIGHT': '$$mdi:mouse-scroll-wheel$$'
+  preprocess: true
+  skip_binding_parsing: false
+  sticky_label: sticky
+  toggle_label: toggle
+  tap_toggle_label: tap-toggle
+  trans_legend:
+    t: ''
+    type: trans
+  layer_legend_map:
+    Lower: '$$mdi:layers-minus$$'
+    Raise: '$$mdi:layers-plus$$'
+  mark_alternate_layer_activators: false
+  modifier_fn_map:
+    left_ctrl: Ctl
+    right_ctrl: Ctl
+    left_shift: Sft
+    right_shift: Sft
+    left_alt: Alt
+    right_alt: AltGr
+    left_gui: Gui
+    right_gui: Gui
+    keycode_combiner: '{mods}+{key}'
+    mod_combiner: '{mod_1}+{mod_2}'
+    special_combinations:
+      left_ctrl+left_alt+left_gui+left_shift: Hyper
+      left_ctrl+left_alt+left_shift: Meh
+  zmk_remove_keycode_prefix: []
+  zmk_keycode_map:
+    EXCLAMATION: '!'
+    EXCL: '!'
+    AT_SIGN: '@'
+    AT: '@'
+    HASH: '#'
+    POUND: '#'
+    DOLLAR: $
+    DLLR: $
+    PERCENT: '%'
+    PRCNT: '%'
+    CARET: ^
+    AMPERSAND: '&'
+    AMPS: '&'
+    ASTERISK: '*'
+    ASTRK: '*'
+    STAR: '*'
+    LEFT_PARENTHESIS: (
+    LPAR: (
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    EQUAL: '='
+    PLUS: +
+    MINUS: '-'
+    UNDERSCORE: _
+    UNDER: _
+    SLASH: /
+    FSLH: /
+    QUESTION: '?'
+    QMARK: '?'
+    BACKSLASH: \
+    BSLH: \
+    PIPE: '|'
+    NON_US_BACKSLASH: \
+    PIPE2: '|'
+    NON_US_BSLH: '|'
+    SEMICOLON: ;
+    SEMI: ;
+    COLON: ':'
+    SINGLE_QUOTE: ''''
+    SQT: ''''
+    APOSTROPHE: ''''
+    APOS: ''''
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    COMMA: ','
+    LESS_THAN: <
+    LT: <
+    PERIOD: .
+    DOT: .
+    GREATER_THAN: '>'
+    GT: '>'
+    LEFT_BRACKET: '['
+    LBKT: '['
+    LEFT_BRACE: '{'
+    LBRC: '{'
+    RIGHT_BRACKET: ']'
+    RBKT: ']'
+    RIGHT_BRACE: '}'
+    RBRC: '}'
+    GRAVE: '`'
+    TILDE: '~'
+    NON_US_HASH: '#'
+    NUHS: '#'
+    TILDE2: '~'
+  zmk_combos: {}
+  zmk_preamble: '#define KEYMAP_DRAWER'
+  zmk_additional_includes: []

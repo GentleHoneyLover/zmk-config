@@ -1,0 +1,189 @@
+layout: {zmk_keyboard: sofle_choc_pro}
+layers:
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', '$$mdi:keyboard-esc$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:keyboard-tab$$',
+    A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, '$$mdi:volume-mute$$', '$$mdi:play-pause$$', N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$',
+    '$$mdi:apple-keyboard-command$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-control$$', lower, '$$mdi:keyboard-return$$', '$$mdi:keyboard-space$$',
+    raise, '$$mdi:apple-keyboard-control$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-command$$']
+  lower:
+  - {type: trans}
+  - $$mdi:keyboard-f1$$
+  - $$mdi:keyboard-f2$$
+  - $$mdi:keyboard-f3$$
+  - $$mdi:keyboard-f4$$
+  - $$mdi:keyboard-f5$$
+  - $$mdi:keyboard-f6$$
+  - $$mdi:keyboard-f7$$
+  - $$mdi:keyboard-f8$$
+  - $$mdi:keyboard-f9$$
+  - $$mdi:keyboard-f10$$
+  - $$mdi:keyboard-f11$$
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - $$mdi:keyboard-f12$$
+  - {type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '|'
+  - {type: trans}
+  - '='
+  - '-'
+  - +
+  - '{'
+  - '}'
+  - {type: trans}
+  - {type: trans}
+  - '['
+  - ']'
+  - ;
+  - ':'
+  - \
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  raise:
+  - $$mdi:bluetooth-off$$
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - INS
+  - PSCRN
+  - CMENU
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:chevron-double-up$$
+  - {type: trans}
+  - $$mdi:arrow-up$$
+  - {type: trans}
+  - '0'
+  - {type: trans}
+  - {type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - {type: trans}
+  - CLCK
+  - $$mdi:chevron-double-down$$
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
+  - $$mdi:keyboard-f1$$
+  - $$mdi:backspace-outline$$
+  - {type: trans}
+  - $$mdi:undo$$
+  - $$mdi:content-cut$$
+  - $$mdi:content-copy$$
+  - $$mdi:content-paste$$
+  - $$mdi:lock-open-variant-outline$$
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  adjust:
+  - $$mdi:bluetooth-off$$
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:power$$
+  - RGB HUD
+  - RGB HUI
+  - RGB SAD
+  - RGB SAI
+  - RGB EFF
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB BRD
+  - RGB BRI
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:led-on$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
