@@ -45,14 +45,14 @@
 
         Bootloader_left {
             bindings = <&bootloader>;
-            key-positions = <12 24>;
-            layers = <0>;
+            key-positions = <24 36>;
+            layers = <1>;
         };
 
         Bootloader_right {
             bindings = <&bootloader>;
-            key-positions = <23 35>;
-            layers = <0>;
+            key-positions = <35 49>;
+            layers = <1>;
         };
     };
 

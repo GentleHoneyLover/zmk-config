@@ -251,9 +251,9 @@ combos:
 - p: [21, 22]
   k: ']'
   l: [Default]
-- p: [12, 24]
+- p: [24, 36]
   k: $$mdi:memory$$
-  l: [Default]
-- p: [23, 35]
+  l: [Lower]
+- p: [35, 49]
   k: $$mdi:memory$$
-  l: [Default]
+  l: [Lower]
