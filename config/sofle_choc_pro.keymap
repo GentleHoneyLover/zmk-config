@@ -35,12 +35,14 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <20 21>;
             layers = <0>;
+            timeout-ms = <25>;
         };
 
         Right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <21 22>;
             layers = <0>;
+            timeout-ms = <25>;
         };
 
         Bootloader_left {
