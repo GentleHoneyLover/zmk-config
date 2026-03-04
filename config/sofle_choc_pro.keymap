@@ -49,12 +49,14 @@
             bindings = <&bootloader>;
             key-positions = <24 36>;
             layers = <1>;
+            require-prior-idle-ms = <50>;
         };
 
         Bootloader_right {
             bindings = <&bootloader>;
             key-positions = <35 49>;
-            layers = <1>;
+            layers = <2>;
+            require-prior-idle-ms = <50>;
         };
     };
 

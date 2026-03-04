@@ -256,4 +256,4 @@ combos:
   l: [Lower]
 - p: [35, 49]
   k: $$mdi:memory$$
-  l: [Lower]
+  l: [Raise]
