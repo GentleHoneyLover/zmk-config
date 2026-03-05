@@ -35,12 +35,14 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <20 21>;
             layers = <0>;
+            timeout-ms = <25>;
         };
 
         Right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <21 22>;
             layers = <0>;
+            timeout-ms = <25>;
         };
     };
 
@@ -82,7 +84,7 @@
 &rgb_ug RGB_TOG  &kp F1                &kp F2                &kp F3          &kp F4           &kp F5                            &kp F6  &kp F7        &kp F8          &kp F9     &kp F10  &kp F11
 &kp BSPC         &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &mmv MOVE_UP    &trans           &trans  &trans                            &msc SCRL_UP  &msc SCRL_DOWN  &trans     &trans   &kp F12
 &trans           &trans                &mmv MOVE_LEFT        &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans                            &mkp LCLK     &mkp MCLK       &mkp RCLK  &trans   &trans
-&trans           &trans                &trans                &trans          &trans           &trans  &trans     &kp LC(LG(Q))  &trans  &trans        &trans          &trans     &trans   &trans
+&bootloader      &trans                &trans                &trans          &trans           &trans  &trans     &kp LC(LG(Q))  &trans  &trans        &trans          &trans     &trans   &trans
                                        &trans                &trans          &trans           &trans  &kp ENTER  &trans         &trans  &trans        &trans          &trans
             >;
 
@@ -105,7 +107,7 @@
 &trans    &trans      &trans     &trans      &trans       &trans                                     &trans  &trans          &trans        &trans        &trans         &kp EQUAL
 &kp CAPS  &trans      &trans     &trans      &trans       &trans          &kp NUMBER_6                       &kp PAGE_DOWN   &kp PAGE_UP   &kp NUMBER_4  &kp BACKSPACE  &kp DELETE
 &trans    &trans      &trans     &trans      &trans       &trans          &kp LEFT_ARROW                     &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT     &trans         &trans
-&trans    &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &studio_unlock  &trans          &trans     &trans  &trans          &trans        &trans        &trans         &trans
+&trans    &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &studio_unlock  &trans          &trans     &trans  &trans          &trans        &trans        &trans         &bootloader
                       &trans     &trans      &trans       &trans          &trans          &kp SPACE  &trans  &trans          &trans        &trans
             >;
 

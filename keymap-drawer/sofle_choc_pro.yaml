@@ -98,7 +98,7 @@ layers:
   - $$mdi:mouse-right-click$$
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - $$mdi:memory$$
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -172,7 +172,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - $$mdi:memory$$
   - {type: trans}
   - {type: trans}
   - {type: trans}
