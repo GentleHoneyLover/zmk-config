@@ -98,7 +98,7 @@ layers:
   - $$mdi:mouse-right-click$$
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - $$mdi:memory$$
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -172,7 +172,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - $$mdi:memory$$
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -251,9 +251,3 @@ combos:
 - p: [21, 22]
   k: ']'
   l: [Default]
-- p: [24, 36]
-  k: $$mdi:memory$$
-  l: [Lower]
-- p: [35, 49]
-  k: $$mdi:memory$$
-  l: [Raise]

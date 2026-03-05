@@ -682,8 +682,9 @@ rect.held, rect.combo.held {
 <g transform="translate(812, 161)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
-<g transform="translate(28, 217)" class="key trans keypos-36">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(28, 217)" class="key keypos-36">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:memory" xlink:href="#mdi:memory" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi:memory"/>
 </g>
 <g transform="translate(84, 217)" class="key trans keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -755,10 +756,6 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(714, 273)" class="key trans keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="14" y="176" width="28" height="26" class="combo"/>
-<use href="#mdi:memory" xlink:href="#mdi:memory" x="18" y="179" height="20" width="20.0" class="combo tap glyph mdi:memory"/>
 </g>
 </g>
 </g>
@@ -929,8 +926,9 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 217)" class="key trans keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
-<g transform="translate(812, 217)" class="key trans keypos-49">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(812, 217)" class="key keypos-49">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:memory" xlink:href="#mdi:memory" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi:memory"/>
 </g>
 <g transform="translate(126, 273)" class="key trans keypos-50">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -962,10 +960,6 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(714, 273)" class="key trans keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="798" y="176" width="28" height="26" class="combo"/>
-<use href="#mdi:memory" xlink:href="#mdi:memory" x="802" y="179" height="20" width="20.0" class="combo tap glyph mdi:memory"/>
 </g>
 </g>
 </g>
