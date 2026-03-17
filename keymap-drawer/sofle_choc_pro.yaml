@@ -37,7 +37,7 @@ layers:
   - L
   - ;
   - ''''
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - Z
   - X
   - C
@@ -250,4 +250,10 @@ combos:
   l: [Default]
 - p: [21, 22]
   k: ']'
+  l: [Default]
+- p: [32, 33]
+  k: (
+  l: [Default]
+- p: [33, 34]
+  k: )
   l: [Default]
