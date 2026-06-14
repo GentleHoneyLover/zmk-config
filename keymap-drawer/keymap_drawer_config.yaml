@@ -55,6 +55,7 @@ parse_config:
     '&kp ESC': '$$mdi:keyboard-esc$$'
 
     # Shift, Ctrl, Alt/Option, GUI/Command
+    '&sk LSHFT': {t: '$$mdi:apple-keyboard-shift$$', h: '(sticky)'}
     '&kp LSHFT': '$$mdi:apple-keyboard-shift$$'
     '&kp RSHFT': '$$mdi:apple-keyboard-shift$$'
     '&kp LCTRL': '$$mdi:apple-keyboard-control$$'

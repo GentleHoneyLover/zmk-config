@@ -11,3 +11,19 @@ on:
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
+  
+  notify:
+    name: Pushover Notification
+    runs-on: ubuntu-latest
+    needs: build
+    if: always()
+    steps:
+      - name: Pushover notification
+        uses: umahmood/pushover-actions@main
+        env:
+          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
+          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER_KEY }}
+        with:
+          status: ${{ needs.build.result }}
+          title: "GitHub Actions"
+          message: "'Build ZMK firmware' action completed"
