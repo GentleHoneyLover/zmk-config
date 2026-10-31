@@ -37,7 +37,7 @@ layers:
   - L
   - ;
   - ''''
-  - {t: '$$mdi:apple-keyboard-shift$$', h: (sticky)}
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
